@@ -55,6 +55,12 @@
     (path "/3a893a7f-cb61-4279-a769-dc7320fbb94d/7350e648-021f-46f2-86a4-198d6c85454d"
       (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
     )
+    (path "/fe2bc626-e682-4fbc-a0bc-a97bd0fc7b7f/99e19013-b9e9-4dc9-8f0b-9ac00998ac33"
+      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/fe2bc626-e682-4fbc-a0bc-a97bd0fc7b7f/0665d4a7-2780-4d02-8483-91a4df8112c4"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/3a893a7f-cb61-4279-a769-dc7320fbb94d/1ac7d70b-049b-43e6-95aa-c9bd5200fceb"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -85,6 +91,9 @@
     (path "/3a893a7f-cb61-4279-a769-dc7320fbb94d/9e04ecc4-e2af-40c2-bb66-b31d0accfb4a"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/fe2bc626-e682-4fbc-a0bc-a97bd0fc7b7f/a68a461d-f4e8-469c-b958-a662712bd761"
+      (reference "#PWR?") (unit 1) (value "VBUS") (footprint "")
+    )
     (path "/3a893a7f-cb61-4279-a769-dc7320fbb94d/aaa2511e-1991-4712-8039-3bb9d0a06411"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
@@ -99,6 +108,9 @@
     )
     (path "/c9ec0bf1-c408-4218-82dc-1e856678ad53/b2f6de22-9ad7-4e28-8b84-8120a41d8355"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/fe2bc626-e682-4fbc-a0bc-a97bd0fc7b7f/bab20546-8f98-40c4-b1dd-44c5df8dfd5a"
+      (reference "#PWR?") (unit 1) (value "VBUS") (footprint "")
     )
     (path "/c9ec0bf1-c408-4218-82dc-1e856678ad53/bb552a7f-bf67-44e1-abd2-3b81e38d350b"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -198,6 +210,9 @@
     )
     (path "/c9ec0bf1-c408-4218-82dc-1e856678ad53/92b8eec4-7df3-43ba-ab8a-071cdaafd5f6"
       (reference "U?") (unit 1) (value "RP2040") (footprint "RP2040:RP2040-QFN-56")
+    )
+    (path "/fe2bc626-e682-4fbc-a0bc-a97bd0fc7b7f/e959ed41-dff6-4835-97ce-25c051cd48ec"
+      (reference "USB?") (unit 1) (value "HRO-TYPE-C-31-M-12") (footprint "Type-C:HRO-TYPE-C-31-M-12-HandSoldering")
     )
     (path "/c9ec0bf1-c408-4218-82dc-1e856678ad53/58b7b804-d918-4a7d-9652-13b1a577206c"
       (reference "Y?") (unit 1) (value "ABLS-12.000MHZ-B4-T") (footprint "ABLS:HC_49US-_AT49__1")
