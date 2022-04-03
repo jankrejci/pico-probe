@@ -73,6 +73,9 @@
     (path "/c9ec0bf1-c408-4218-82dc-1e856678ad53/317937d7-235a-46ca-ae39-43c68bd6c55e"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/fe2bc626-e682-4fbc-a0bc-a97bd0fc7b7f/455b3a86-70ac-4186-84f6-595453d87e3b"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/c9ec0bf1-c408-4218-82dc-1e856678ad53/54302b79-9245-409b-8531-3b9d722abf70"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -94,8 +97,14 @@
     (path "/c9ec0bf1-c408-4218-82dc-1e856678ad53/8edc1b10-439e-482c-b656-480b82708652"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/fe2bc626-e682-4fbc-a0bc-a97bd0fc7b7f/929e2061-b3ec-413c-8b8d-326af4b49319"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/3a893a7f-cb61-4279-a769-dc7320fbb94d/9e04ecc4-e2af-40c2-bb66-b31d0accfb4a"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fe2bc626-e682-4fbc-a0bc-a97bd0fc7b7f/a4b41507-ddae-4c12-8042-13ca027fe2c7"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/fe2bc626-e682-4fbc-a0bc-a97bd0fc7b7f/a68a461d-f4e8-469c-b958-a662712bd761"
       (reference "#PWR?") (unit 1) (value "VBUS") (footprint "")
@@ -116,6 +125,9 @@
       (reference "#PWR?") (unit 1) (value "+1V1") (footprint "")
     )
     (path "/c9ec0bf1-c408-4218-82dc-1e856678ad53/ac89fade-4cd4-4797-9288-9629845a28b7"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fe2bc626-e682-4fbc-a0bc-a97bd0fc7b7f/ae0ef558-1e83-46d2-9ec2-4941438133d1"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/fe2bc626-e682-4fbc-a0bc-a97bd0fc7b7f/bab20546-8f98-40c4-b1dd-44c5df8dfd5a"
@@ -192,6 +204,9 @@
     )
     (path "/3a893a7f-cb61-4279-a769-dc7320fbb94d/f111327c-d1c1-401b-9b64-aa88c80533f9"
       (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
+    (path "/fe2bc626-e682-4fbc-a0bc-a97bd0fc7b7f/625d6042-c37b-4ad5-a06b-83d11aaaf5eb"
+      (reference "J?") (unit 1) (value "DEBUG_HEADER") (footprint "")
     )
     (path "/c9ec0bf1-c408-4218-82dc-1e856678ad53/6cb9b6f2-ed11-40db-8c2c-cbeb167ab4ae"
       (reference "J?") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
