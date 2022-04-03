@@ -1,6 +1,6 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid e34bf49d-5dde-43c9-8cbe-932ce84d1888)
+  (uuid b9c1e750-fb7d-41a0-85cd-31479b31aed1)
 
   (paper "A4")
 
@@ -931,10 +931,6 @@
     (uuid 7c584be4-9b71-4383-9e7d-aa0adb7240a4)
   )
 
-  (wire (pts (xy 179.07 59.69) (xy 202.565 59.69))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 7e88cd2f-2de1-4711-aa25-38e748ae01a6)
-  )
   (wire (pts (xy 70.485 168.275) (xy 70.485 170.815))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 81043e9b-f6bb-46bf-a932-92559fcea0ae)
@@ -1259,10 +1255,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d3768cc5-28ee-4db3-854a-7139ef9000c4)
   )
-  (label "TARGET_RST" (at 179.07 59.69 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d760f77f-3001-4cd3-bf4a-5400414f9ebf)
-  )
   (label "USB_DP" (at 238.76 49.53 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid df251bed-3239-4ddb-8b26-36a92120a54b)
@@ -1303,10 +1295,6 @@
   (hierarchical_label "USB_DM" (shape bidirectional) (at 262.255 52.07 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid b9100b5c-4362-41f9-bd75-80b3fad4731e)
-  )
-  (hierarchical_label "RESET" (shape output) (at 202.565 59.69 0)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid c6762f83-07e8-431b-955a-617ab3d1f7c3)
   )
   (hierarchical_label "UART_RX" (shape output) (at 202.565 49.53 0)
     (effects (font (size 1.27 1.27)) (justify left))
