@@ -1,8 +1,15 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid 40725ddd-e097-4b61-b979-e6d576270540)
+  (uuid 2c3083c4-0cd5-4372-ae69-b6babccc903e)
 
   (paper "A4")
+
+  (title_block
+    (title "Pico probe")
+    (date "2022-04-03")
+    (rev "22.04")
+    (company "Jan Krejčí")
+  )
 
   (lib_symbols
     (symbol "Connector_Generic:Conn_02x05_Counter_Clockwise" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)

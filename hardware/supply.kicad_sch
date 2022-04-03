@@ -1,8 +1,15 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid 46a4aa7d-3ba8-427d-9884-df8e6f2abcf5)
+  (uuid 1c1e205e-6763-430e-a2ab-42c2c9558a77)
 
   (paper "A4")
+
+  (title_block
+    (title "Pico probe")
+    (date "2022-04-03")
+    (rev "22.04")
+    (company "Jan Krejčí")
+  )
 
   (lib_symbols
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)

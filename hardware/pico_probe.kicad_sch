@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Pico probe")
+    (date "2022-04-03")
+    (rev "22.04")
+    (company "Jan Krejčí")
+  )
+
   (lib_symbols
   )
 
