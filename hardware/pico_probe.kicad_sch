@@ -212,7 +212,7 @@
       (reference "J?") (unit 1) (value "DEBUG_HEADER") (footprint "")
     )
     (path "/c9ec0bf1-c408-4218-82dc-1e856678ad53/6cb9b6f2-ed11-40db-8c2c-cbeb167ab4ae"
-      (reference "J?") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J?") (unit 1) (value "BOOT") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/c9ec0bf1-c408-4218-82dc-1e856678ad53/200c645c-8bca-49fb-9203-3a871d79f923"
       (reference "R?") (unit 1) (value "1k") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
