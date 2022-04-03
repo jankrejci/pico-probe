@@ -1,3 +1,5 @@
 (fp_lib_table
-  (lib (name "library")(type "KiCad")(uri "${KIPRJMOD}/library")(options "")(descr ""))
+  (lib (name "ABLS")(type "KiCad")(uri "${KIPRJMOD}/library/ABLS")(options "")(descr ""))
+  (lib (name "TYPE-C")(type "KiCad")(uri "${KIPRJMOD}/library/TYPE-C")(options "")(descr ""))
+  (lib (name "RP2040")(type "KiCad")(uri "${KIPRJMOD}/library/RP2040")(options "")(descr ""))
 )
