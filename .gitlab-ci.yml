@@ -1,0 +1,67 @@
+### Gitlab CI/CD example for KiCad
+
+stages:
+  - run_erc
+  - run_drc
+  - gen_fab
+
+image:
+  name: setsoft/kicad_auto:dev_k6
+
+erc:
+  stage: run_erc
+  script:
+    - "[ -f *.kicad_sch ] && kibot -d Fabrication -s update_xml,run_drc -i"
+  rules:
+    - changes:
+      - "**.kicad_sch"
+      - ".gitlab-ci.yml"
+      when: always
+  artifacts:
+    when: always
+    paths:
+      - Fabrication/
+
+drc:
+  stage: run_drc
+  script:
+    - "[ -f *.kicad_pcb ] && kibot -d Fabrication -s update_xml,run_erc -i"
+  rules:
+    - changes:
+      - "**.kicad_pcb"
+      - ".gitlab-ci.yml"
+      when: always
+  artifacts:
+    when: always
+    paths:
+      - Fabrication/
+
+
+sch_outputs:
+  stage: gen_fab
+  script:
+    - "[ -f *.kicad_sch ] && kibot -d Fabrication -s run_drc,run_erc print_sch"
+  rules:
+    - changes:
+      - "**.kicad_sch"
+      - ".gitlab-ci.yml"
+      when: on_success
+  artifacts:
+    when: always
+    paths:
+      - Fabrication/
+
+pcb_outputs:
+  stage: gen_fab
+  script:
+    - "[ -f *.kicad_pcb ] && kibot -d Fabrication -s all print_front gerbers"
+  rules:
+    - changes:
+      - "**.kicad_pcb"
+      - ".gitlab-ci.yml"
+      when: on_success
+  artifacts:
+    when: always
+    paths:
+      - Fabrication/
+
